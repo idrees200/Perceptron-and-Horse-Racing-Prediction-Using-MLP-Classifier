@@ -23,26 +23,7 @@ The `Perceptron` class is implemented with methods to initialize weights and bia
   - Weights: [0.5, 0.5]
   - Bias: -0.3
 
-### Example Usage
 
-```python
-and_weights = [0.5, 0.5]
-and_bias = -0.8
-and_perceptron = Perceptron(and_weights, and_bias)
-print("AND Gate:")
-print(f"AND(0, 0) = {and_perceptron.predict([0, 0])}")
-print(f"AND(0, 1) = {and_perceptron.predict([0, 1])}")
-print(f"AND(1, 0) = {and_perceptron.predict([1, 0])}")
-print(f"AND(1, 1) = {and_perceptron.predict([1, 1])}")
-
-or_weights = [0.5, 0.5]
-or_bias = -0.3
-or_perceptron = Perceptron(or_weights, or_bias)
-print("\nOR Gate:")
-print(f"OR(0, 0) = {or_perceptron.predict([0, 0])}")
-print(f"OR(0, 1) = {or_perceptron.predict([0, 1])}")
-print(f"OR(1, 0) = {or_perceptron.predict([1, 0])}")
-print(f"OR(1, 1) = {or_perceptron.predict([1, 1])}")
 ## Part 2: Horse Racing Prediction
 
 This section details the steps to predict horse racing outcomes using a Multi-Layer Perceptron (MLP) classifier. The dataset contains various features related to horse racing events, and the goal is to predict whether a horse finishes first in a race.
